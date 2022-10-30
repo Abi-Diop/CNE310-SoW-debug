@@ -1,6 +1,6 @@
 def lone_sum(a, b, c):
     if a == b:
-        return c
+        return 0
     elif a == c:
         return b
     elif b == c:
